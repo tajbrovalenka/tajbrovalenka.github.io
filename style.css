@@ -1,0 +1,67 @@
+body {
+  width: 660px;
+  margin: 0px;
+}
+.page {
+        display: flex;
+        flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0px;
+  margin: 0px;
+    }
+img {
+  width: 310px;
+  margin-top: 20px;
+}
+.greet {
+    font-family: 'Redressed', cursive;
+font-size: 40px;
+}
+.item {
+  display: block;
+  width: 310px;
+  margin-right: 20px;
+}
+.menu {
+  background-color: maroon;
+  height: 70px;
+  width: 660px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.button {
+  font-family: 'BioRhyme', serif;
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+p, h2, h3, ul {
+font-family: 'Space Mono', monospace; 
+  color: #222;
+}
+ul {
+    list-style-type: square;
+}
+.quote::before {
+content: '“';
+display:flex;
+  font-size: 100px;
+}
+.quote {
+  font-family: 'Redressed', cursive;
+  color: #222;
+  color: white;
+  font-size: 50px;
+  background-color: #444;
+}
+.text {
+  position: relative;
+  left: 30px;
+  bottom: 80px;
+}
+.subtitle {
+  font-family: 'BioRhyme', serif;
+  font-size: 15px;
+}
